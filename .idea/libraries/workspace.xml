@@ -1,0 +1,7 @@
+<component name = "RunDashboard">
+    <option name="configurationTypes">
+        <set>
+            <option value="SpringbootConfigurationTypes"/>
+        </set>
+    </option>
+</component>

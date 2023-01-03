@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.HashMap;
 
 @SpringBootTest
-class TestProviderApplicationTests {
+class ProviderApplicationTest {
     @Autowired
     ProviderController providerController;
 

@@ -47,5 +47,12 @@ public class ConsumerController {
         return "putRequest";
     }
 
+    @GetMapping("/timeOutTest")
+    public String timeOutTest(){
+        return "ConsumerController : " + restTemplate.getForObject("http://localhost:8081/provider/timeOut/张三", String.class);
+    }
+
+
+
 
 }

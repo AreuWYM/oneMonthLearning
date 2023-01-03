@@ -2,8 +2,6 @@ package com.example.testprovider.controller;
 
 import com.example.testprovider.service.ProviderService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpRequest;
-import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -41,5 +39,11 @@ public class ProviderController {
     public void putRequest(@RequestBody Map<String,Object> map){
         System.out.println(map);
         System.out.println(providerService.putRequest());
+    }
+
+    @GetMapping("/timeOut/{name}")
+    public String timeOut(@PathVariable("name") String name) throws Exception {
+        Thread.sleep( 5 * 1000);
+        return "5s later, " + name + " get Successful!";
     }
 }

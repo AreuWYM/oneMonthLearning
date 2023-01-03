@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="636f1774-5948-4e2b-89cc-03120b744d4e" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/example/testprovider/TestConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/test/java/com/example/testprovider/TestConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="636f1774-5948-4e2b-89cc-03120b744d4e" name="Changes" comment="week 2">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +16,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,7 +33,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\LocalWareHouse" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.8.1" />
         <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -36,97 +44,129 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2JcDYCnoHPqVwqzQnt7eODQAZs2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "semeru-1.8",
-    "last_opened_file_path": "C:/Users/ZZ0D8C672/IdeaProjects/oneMonthLearning",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "D:/代码/oneMonthLearning/provider/src/main/java/com/example/testprovider",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
+    "spring.configuration.checksum": "a8faca6d4926eec4a3723fd0dfb30c41",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis",
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\代码\oneMonthLearning\provider\src\main\java\com\example\testprovider" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.testprovider.config" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn help:active-profiles" />
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
         <option value="MavenRunConfiguration" />
+        <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestConsumerApplicationTests.getRequest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.oneMonth.week1.Main" />
-      <module name="Demo1" />
+  <component name="RunManager" selected="JUnit.ServiceMockRestServiceServerTest.GetUserByIdTest">
+    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ServiceMockRestServiceServerTest.GetUserByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.oneMonth.week1.*" />
+          <option name="PATTERN" value="com.example.testprovider.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.testprovider.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.ServiceMockRestServiceServerTest" />
+      <option name="METHOD_NAME" value="GetUserByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.TestConsumerApplication" />
-      <module name="consumer" />
+    <configuration name="ServiceMockRestServiceServerTest.MockRestServiceServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.testprovider.*" />
+          <option name="PATTERN" value="com.example.testprovider.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.testprovider.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.ServiceMockRestServiceServerTest" />
+      <option name="METHOD_NAME" value="MockRestServiceServerTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.TestProviderApplication" />
-      <module name="provider" />
+    <configuration name="ServiceTest.GetUserByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.testprovider.*" />
+          <option name="PATTERN" value="com.example.testprovider.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.testprovider.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.ServiceTest" />
+      <option name="METHOD_NAME" value="GetUserByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestConsumerApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="consumer" />
+    <configuration name="serviceMockRestTemplateTest.GetUserByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.testprovider.*" />
+          <option name="PATTERN" value="com.example.testprovider.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.testprovider" />
-      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.TestConsumerApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestConsumerApplicationTests.getRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.testprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.testprovider" />
-      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.TestConsumerApplicationTests" />
-      <option name="METHOD_NAME" value="getRequest" />
+      <option name="PACKAGE_NAME" value="com.example.testprovider.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.serviceMockRestTemplateTest" />
+      <option name="METHOD_NAME" value="GetUserByIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,13 +185,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="test-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.testprovider.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests | #7" />
+      <item itemvalue="JUnit.ServiceMockRestServiceServerTest.GetUserByIdTest" />
+      <item itemvalue="JUnit.ServiceMockRestServiceServerTest.MockRestServiceServerTest" />
+      <item itemvalue="JUnit.ServiceTest.GetUserByIdTest" />
+      <item itemvalue="JUnit.serviceMockRestTemplateTest.GetUserByIdTest" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestConsumerApplicationTests.getRequest" />
-        <item itemvalue="Application.TestProviderApplication" />
-        <item itemvalue="JUnit.TestConsumerApplicationTests" />
-        <item itemvalue="Application.TestConsumerApplication" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ServiceMockRestServiceServerTest.GetUserByIdTest" />
+        <item itemvalue="JUnit.ServiceTest.GetUserByIdTest" />
+        <item itemvalue="JUnit.ServiceMockRestServiceServerTest.MockRestServiceServerTest" />
+        <item itemvalue="HTTP Request.generated-requests | #7" />
+        <item itemvalue="JUnit.serviceMockRestTemplateTest.GetUserByIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +221,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672368524574</updated>
+      <workItem from="1672560018064" duration="388000" />
+      <workItem from="1672560454612" duration="604000" />
+      <workItem from="1672561071351" duration="1240000" />
+      <workItem from="1672562327466" duration="56000" />
+      <workItem from="1672562395403" duration="541000" />
+      <workItem from="1672576715274" duration="5050000" />
+      <workItem from="1672674272333" duration="13869000" />
+      <workItem from="1672731681489" duration="11115000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1672369329891</created>
@@ -174,8 +237,18 @@
       <option name="project" value="LOCAL" />
       <updated>1672369329891</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="week 2">
+      <created>1672767381282</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672767381282</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -202,6 +275,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="week 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/consumer/src/test/java/com/example/testprovider/ConsumerApplicationTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/controller/ProviderMybatisController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/consumer/src/test/java/com/example/testprovider/service/ServiceTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/controller/ProviderFileController.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

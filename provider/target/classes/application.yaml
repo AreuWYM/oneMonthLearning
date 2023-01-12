@@ -13,3 +13,40 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+  boot:
+    admin:
+      client:
+        url: http://localhost:9999 #SpringBoot Admin Server地址
+        instance:
+          name: SpringBoot-Admin-ClientOne #注册上去的服务名称
+  jpa:
+    database: MYSQL
+    show_sql: true
+    hibernate:
+      ddl_auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  security:
+    user:
+      name: yumin
+      password: 123456
+  thymeleaf:
+    cache: false
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' #暴露所有的Actuator端点
+  endpoint:
+    health:
+      show-details: always
+logging:
+  level:
+    org:
+      springframework:
+        security: info

@@ -18,12 +18,6 @@ import java.util.List;
 @SpringBootApplication
 public class ConsumerApplication {
 
-//    @Bean
-//    public RestTemplate restTemplate(RestTemplateBuilder templateBuilder) {
-//        return templateBuilder.setConnectTimeout(Duration.ofSeconds(10))
-//                .setReadTimeout(Duration.ofSeconds(10))
-//                .build();
-//    }
 
     public static void main(String[] args) {
         SpringApplication.run(ConsumerApplication.class, args);

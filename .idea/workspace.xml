@@ -5,9 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="636f1774-5948-4e2b-89cc-03120b744d4e" name="Changes" comment="week 2">
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/Entity/Authrity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/Entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/CustomPasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/MyAuthenctiationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/MyAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/repository/AuthRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/test/java/com/example/testprovider/service/serviveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springBootAdmin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springBootAdmin/src/main/java/org/oneMonth/week1/SpringbootAdminServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springBootAdmin/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDataJPA/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDataJPA/src/main/java/org/oneMonth/week3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/testprovider/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/example/testprovider/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/ResponseAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/ResponseAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/controller/ProviderMybatisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/controller/ProviderMybatisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +48,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,6 +71,11 @@
         <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.1\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -55,6 +93,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -62,18 +101,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "semeru-1.8",
+    "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "D:/代码/oneMonthLearning/provider/src/main/java/com/example/testprovider",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
-    "spring.configuration.checksum": "a8faca6d4926eec4a3723fd0dfb30c41",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.com.haulmont.jpb.tools",
+    "spring.configuration.checksum": "c21b6761c82358216e0911cb498e6eba",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -86,6 +126,12 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\代码\oneMonthLearning\provider\src\main\java\com\example\testprovider" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\代码\oneMonthLearning\provider\src\main\resources\templates" />
+      <recent name="D:\代码\oneMonthLearning\provider\src\main\resources\static" />
+      <recent name="D:\代码\oneMonthLearning\provider\src\main\resources" />
+      <recent name="D:\代码\oneMonthLearning\provider\src\main\resources\static.template" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.testprovider.config" />
@@ -104,12 +150,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceMockRestServiceServerTest.GetUserByIdTest">
-    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="ServiceMockRestServiceServerTest.GetUserByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-consumer" />
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+    <configuration name="serviveTest.addUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-provider" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.testprovider.service.*" />
@@ -117,15 +160,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.testprovider.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.ServiceMockRestServiceServerTest" />
-      <option name="METHOD_NAME" value="GetUserByIdTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.serviveTest" />
+      <option name="METHOD_NAME" value="addUserTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceMockRestServiceServerTest.MockRestServiceServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-consumer" />
+    <configuration name="serviveTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-provider" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.testprovider.service.*" />
@@ -133,15 +176,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.testprovider.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.ServiceMockRestServiceServerTest" />
-      <option name="METHOD_NAME" value="MockRestServiceServerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.serviveTest" />
+      <option name="METHOD_NAME" value="getUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceTest.GetUserByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-consumer" />
+    <configuration name="serviveTest.listUserByNameAndVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-provider" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.testprovider.service.*" />
@@ -149,15 +192,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.testprovider.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.ServiceTest" />
-      <option name="METHOD_NAME" value="GetUserByIdTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.serviveTest" />
+      <option name="METHOD_NAME" value="listUserByNameAndVolume" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="serviceMockRestTemplateTest.GetUserByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-consumer" />
+    <configuration name="serviveTest.tranctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-provider" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.testprovider.service.*" />
@@ -165,8 +208,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.testprovider.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.serviceMockRestTemplateTest" />
-      <option name="METHOD_NAME" value="GetUserByIdTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.serviveTest" />
+      <option name="METHOD_NAME" value="tranctionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,21 +235,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="test-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.testprovider.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootAdminServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springBootAdmin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.oneMonth.week1.SpringbootAdminServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.oneMonth.week1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="HTTP Request.generated-requests | #7" />
-      <item itemvalue="JUnit.ServiceMockRestServiceServerTest.GetUserByIdTest" />
-      <item itemvalue="JUnit.ServiceMockRestServiceServerTest.MockRestServiceServerTest" />
-      <item itemvalue="JUnit.ServiceTest.GetUserByIdTest" />
-      <item itemvalue="JUnit.serviceMockRestTemplateTest.GetUserByIdTest" />
+      <item itemvalue="JUnit.serviveTest.addUserTest" />
+      <item itemvalue="JUnit.serviveTest.getUser" />
+      <item itemvalue="JUnit.serviveTest.listUserByNameAndVolume" />
+      <item itemvalue="JUnit.serviveTest.tranctionTest" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.SpringbootAdminServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ServiceMockRestServiceServerTest.GetUserByIdTest" />
-        <item itemvalue="JUnit.ServiceTest.GetUserByIdTest" />
-        <item itemvalue="JUnit.ServiceMockRestServiceServerTest.MockRestServiceServerTest" />
-        <item itemvalue="HTTP Request.generated-requests | #7" />
-        <item itemvalue="JUnit.serviceMockRestTemplateTest.GetUserByIdTest" />
+        <item itemvalue="Spring Boot.SpringbootAdminServer" />
+        <item itemvalue="JUnit.serviveTest.tranctionTest" />
+        <item itemvalue="JUnit.serviveTest.listUserByNameAndVolume" />
+        <item itemvalue="JUnit.serviveTest.getUser" />
+        <item itemvalue="JUnit.serviveTest.addUserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +292,17 @@
       <workItem from="1672562395403" duration="541000" />
       <workItem from="1672576715274" duration="5050000" />
       <workItem from="1672674272333" duration="13869000" />
-      <workItem from="1672731681489" duration="11115000" />
+      <workItem from="1672731681489" duration="12652000" />
+      <workItem from="1672799674066" duration="1635000" />
+      <workItem from="1672808429500" duration="25000" />
+      <workItem from="1672808466117" duration="207000" />
+      <workItem from="1672808685912" duration="4439000" />
+      <workItem from="1672846531639" duration="6440000" />
+      <workItem from="1672909401113" duration="5260000" />
+      <workItem from="1673268816178" duration="397000" />
+      <workItem from="1673411274792" duration="5107000" />
+      <workItem from="1673438534275" duration="472000" />
+      <workItem from="1673439020199" duration="27772000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1672369329891</created>
@@ -244,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672767381282</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="week 2">
+      <created>1672767598497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672767598497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,11 +382,79 @@
           <line>16</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/SecurityConfiguration.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/impl/UserDetailsServiceImpl.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/SecurityConfiguration.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/SecurityConfiguration.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../maven/LocalWareHouse/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class</url>
+          <line>79</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../maven/LocalWareHouse/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class</url>
+          <line>32</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../maven/LocalWareHouse/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class</url>
+          <line>91</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/MyAuthenctiationFailureHandler.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/MyAuthenticationSuccessHandler.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../maven/LocalWareHouse/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4.jar!/org/springframework/security/authentication/ProviderManager.class</url>
+          <line>98</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/oneMonthLearning$ConsumerApplicationTest_timeOut.ic" NAME="ConsumerApplicationTest.timeOut Coverage Results" MODIFIED="1672817204154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.testprovider.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/oneMonthLearning$ConsumerApplication.ic" NAME="ConsumerApplication Coverage Results" MODIFIED="1672817023005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/oneMonthLearning$ServiceMockRestServiceServerTest_MockRestServiceServerTest.ic" NAME="ServiceMockRestServiceServerTest.MockRestServiceServerTest Coverage Results" MODIFIED="1672817308450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.testprovider.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/oneMonthLearning$ProviderApplication.ic" NAME="ProviderApplication Coverage Results" MODIFIED="1672817044622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.testprovider.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/oneMonthLearning$serviceMockRestTemplateTest_testGetUsers.ic" NAME="serviceMockRestTemplateTest.testGetUsers Coverage Results" MODIFIED="1672817284541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.testprovider.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/oneMonthLearning$ServiceTest_GetUserByIdTest.ic" NAME="ServiceTest.GetUserByIdTest Coverage Results" MODIFIED="1672817332325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.testprovider.service.*</FILTER>
+    </SUITE>
   </component>
 </project>

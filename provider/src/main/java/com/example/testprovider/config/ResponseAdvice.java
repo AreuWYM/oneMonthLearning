@@ -28,6 +28,6 @@ public class ResponseAdvice implements ResponseBodyAdvice<Object> {
         if(o instanceof String){
             return objectMapper.writeValueAsString(ResultData.success(o));
         }
-        return ResultData.success(o);
+        return o;
     }
 }

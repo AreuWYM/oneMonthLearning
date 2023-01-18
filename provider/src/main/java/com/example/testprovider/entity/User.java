@@ -1,4 +1,4 @@
-package com.example.testprovider.Entity;
+package com.example.testprovider.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

@@ -9,9 +9,9 @@ spring:
       request-timeout: 20000
   #mybatis链接数据库相关配置
   datasource:
-    url: jdbc:mysql://121.40.225.244/oneMonthLearning?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    url: jdbc:mysql://localhost/oneMonthLearning?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
     username: root
-    password: root
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
   boot:
     admin:
@@ -34,6 +34,13 @@ spring:
       password: 123456
   thymeleaf:
     cache: false
+  redis:
+    database: 1
+    host: 121.40.225.244
+    port: 6379
+    password:
+    timeout: 5000
+
 
 
 

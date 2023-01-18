@@ -4,38 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="636f1774-5948-4e2b-89cc-03120b744d4e" name="Changes" comment="week 2">
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/Entity/Authrity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/Entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/CustomPasswordEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/MyAuthenctiationFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/MyAuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/repository/AuthRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/test/java/com/example/testprovider/service/serviveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBootAdmin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBootAdmin/src/main/java/org/oneMonth/week1/SpringbootAdminServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBootAdmin/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springDataJPA/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springDataJPA/src/main/java/org/oneMonth/week3/Main.java" afterDir="false" />
+    <list default="true" id="636f1774-5948-4e2b-89cc-03120b744d4e" name="Changes" comment="week 3">
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/RedisLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/TaskScheduleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/controller/ProviderWeek4Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/impl/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/task/TaskService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/testprovider/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/example/testprovider/ConsumerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/ResponseAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/ResponseAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/Entity/Authrity.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/entity/Authrity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/Entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/ProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/config/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/controller/ProviderMybatisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/controller/ProviderMybatisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/repository/AuthRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/repository/AuthRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/testprovider/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/test/java/com/example/testprovider/ProviderApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/java/com/example/testprovider/ProviderApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/test/java/com/example/testprovider/service/serviveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/java/com/example/testprovider/service/serviveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/Entity/Authrity.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/Entity/Authrity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/Entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/Entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/Entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/Entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/ProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/ProviderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/config/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/controller/ProviderMybatisController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/repository/AuthRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/service/impl/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/example/testprovider/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/test-classes/com/example/testprovider/ProviderApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/test-classes/com/example/testprovider/ProviderApplicationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/test-classes/com/example/testprovider/service/serviveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/test-classes/com/example/testprovider/service/serviveTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +121,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "configurable.group.com.haulmont.jpb.tools",
+    "settings.editor.selected.configurable": "reactor",
     "spring.configuration.checksum": "c21b6761c82358216e0911cb498e6eba",
     "vue.rearranger.settings.migration": "true"
   },
@@ -123,6 +132,9 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\代码\oneMonthLearning\provider\src\main\java\com\example\testprovider" />
@@ -150,18 +162,18 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderApplication">
-    <configuration name="serviveTest.addUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProviderApplicationTest.completableFuture">
+    <configuration name="ProviderApplicationTest.completableFuture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-provider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.testprovider.service.*" />
+          <option name="PATTERN" value="com.example.testprovider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.testprovider.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.serviveTest" />
-      <option name="METHOD_NAME" value="addUserTest" />
+      <option name="PACKAGE_NAME" value="com.example.testprovider" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testprovider.ProviderApplicationTest" />
+      <option name="METHOD_NAME" value="completableFuture" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,7 +195,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="serviveTest.listUserByNameAndVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="serviveTest.redisConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-provider" />
       <extension name="coverage">
         <pattern>
@@ -193,7 +205,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.testprovider.service" />
       <option name="MAIN_CLASS_NAME" value="com.example.testprovider.service.serviveTest" />
-      <option name="METHOD_NAME" value="listUserByNameAndVolume" />
+      <option name="METHOD_NAME" value="redisConnectionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,9 +268,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.serviveTest.addUserTest" />
+      <item itemvalue="JUnit.ProviderApplicationTest.completableFuture" />
+      <item itemvalue="JUnit.serviveTest.redisConnectionTest" />
       <item itemvalue="JUnit.serviveTest.getUser" />
-      <item itemvalue="JUnit.serviveTest.listUserByNameAndVolume" />
       <item itemvalue="JUnit.serviveTest.tranctionTest" />
       <item itemvalue="Spring Boot.ProviderApplication" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
@@ -266,11 +278,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProviderApplicationTest.completableFuture" />
+        <item itemvalue="JUnit.serviveTest.redisConnectionTest" />
         <item itemvalue="Spring Boot.SpringbootAdminServer" />
         <item itemvalue="JUnit.serviveTest.tranctionTest" />
-        <item itemvalue="JUnit.serviveTest.listUserByNameAndVolume" />
         <item itemvalue="JUnit.serviveTest.getUser" />
-        <item itemvalue="JUnit.serviveTest.addUserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +314,8 @@
       <workItem from="1673268816178" duration="397000" />
       <workItem from="1673411274792" duration="5107000" />
       <workItem from="1673438534275" duration="472000" />
-      <workItem from="1673439020199" duration="27772000" />
+      <workItem from="1673439020199" duration="32378000" />
+      <workItem from="1673874931720" duration="9087000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1672369329891</created>
@@ -325,7 +338,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672767598497</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="week 3">
+      <created>1673503361529</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673503361529</updated>
+    </task>
+    <task id="LOCAL-00005" summary="week 3">
+      <created>1673503790679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673503790679</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +384,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
     <MESSAGE value="week 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 2" />
+    <MESSAGE value="week 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -431,6 +459,16 @@
           <url>jar://$PROJECT_DIR$/../../maven/LocalWareHouse/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4.jar!/org/springframework/security/authentication/ProviderManager.class</url>
           <line>98</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider/src/test/java/com/example/testprovider/ProviderApplicationTest.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider/src/test/java/com/example/testprovider/ProviderApplicationTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

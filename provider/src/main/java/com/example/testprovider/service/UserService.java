@@ -1,6 +1,6 @@
 package com.example.testprovider.service;
 
-import com.example.testprovider.Entity.User;
+import com.example.testprovider.entity.User;
 
 import java.util.List;
 

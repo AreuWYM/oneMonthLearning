@@ -15,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="sptingBootAdmin" target="11" />
+      <module name="week4" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
